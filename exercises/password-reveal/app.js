@@ -4,7 +4,7 @@ const revelButton = document.getElementById('#togglePassword');
 
 // 🤖: Create an Event Listener on the password reveal button
 // 🤖: The event listener should toggle the password field attribute between `password` and `text` to change the visibility of the password field content.
-passwordReveal.addEventListener('click', function (e) {
+passwordReveal.addEventListener('click', function () {
 	if (passwordInput.type == 'password'){
 		passwordInput.type = 'text';
 		this.classList.toggle('bi bi-eye-slash');	
